@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <h1>Weather App</h1>
+            <h4 id="banner-info">A simple app to find weather condition</h4>
+            <p>Powered By : Nishchaya Manandhar</p>
+        </div>
+        <div class="weather-section">
+            <div class="weather-input">
+                <input type="text" id="city" placeholder="Enter City ">
+                <input type="text" id="country" placeholder="Enter Country">
+                <button type="button" id="get-weather">Get Weather</button>
+            </div>
+            <div class="wrapper">
+                <div class="weather-info">
+                    <p> Location:<span id="location"></span></p>
+                    <p> Temperature: <span id="temperature"></span> </p>
+                    <p> Humidity: <span id="humidity"></span></p>
+                    <p> Description: <span id="description"></span> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
